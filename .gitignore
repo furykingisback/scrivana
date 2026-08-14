@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Electron build output
+dist-electron/
+release/
+build/
+
+# Test output
+test-results/
+playwright-report/
+coverage/
+*.tsbuildinfo
+
+# OCR verileri yalnızca assets/ocr/ içinde tutulur (kök kopyaları takip edilmez)
+/*.traineddata
+
+# Logs & misc
+*.log
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+!.env.example
+Thumbs.db
